@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acacia Garden Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!--Navigation Bar-->
+<header class="navbar">
+    <div class="logo">Acacia Garden Center</div>
+
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About the Product</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+</header>
+
+
+<!--Hero Section-->
+<section id="hero" class="hero">
+    <div class="hero-overlay">
+        <h1>SWISS CHEESE PLANT</h1>
+        <h3>Bring Nature Into Your Home</h3>
+        <p class="subtext">
+            Enhance your lifestyle with sustainable greenery and timeless natural beauty.
+        </p>
+        <a href="#product" class="btn">Shop Now</a>
+    </div>
+</section>
+
+
+<!--Product-->
+<section id="product" class="product-section">
+
+    <div class="product-container">
+
+        <div class="product-image">
+            <img src="images/swissplantpdt.webp" alt="Swiss CHeese Plant">
+        </div>
+
+        <div class="product-info">
+            <h2>Swiss Cheese Plant (Monstera deliciosa moss stick) | 1.2 - 1.4m</h2>
+            <p class="price">AED 160</p>
+
+            <p>Pot Type: Ceramic</p>
+            <p>Color: White / Black / Terracotta</p>
+
+        </div>
+    </div>
+</section>
+
+
+<!--Details-->
+<section class="details" id="about">
+
+    <h2 class="section-title">Product Details</h2>
+
+    <p class="center-text">
+        The Monstera is a popular tropical indoor plant known for its unique, large, and perforated leaves. 
+        It belongs to the Araceae family and is native to the tropical regions of Central and South America. 
+        The most common species, Monstera deliciosa, is sometimes called the "Swiss cheese plant" because of the distinctive holes in its leaves.
+    </p>
+
+    <!-- FEATURES -->
+    <h3 class="sub-title">Features</h3>
+    <div class="box-grid">
+        <div class="box">Air Purifier: Known for its ability to filter indoor pollutants and improve air quality.</div>
+        <div class="box">Distinctive Foliage: Large, glossy, heart-shaped leaves that develop natural holes and splits (fenestrations) as they mature, mimicking Swiss cheese.</div>
+        <div class="box">Easy-Care Tropical: Thrives in warm, humid conditions but is highly adaptable to average household humidity and low-maintenance care.</div>
+        <div class="box">Toxicity: While Monstera deliciosa is not highly toxic to humans, it contains compounds called calcium oxalate crystals, which can cause irritation if ingested, especially in pets.</div>
+    </div>
+
+    <!-- SUITABLE FOR -->
+    <h3 class="sub-title">Suitable For</h3>
+    <div class="box-grid">
+        <div class="box">Living rooms</div>
+        <div class="box">Bedrooms</div>
+        <div class="box">Office spaces</div>
+    </div>
+</section>
+
+
+<section class="why">
+
+    <h2 class="section-title">Why Buy This Plant?</h2>
+
+    <div class="box-grid">
+        <div class="box">Elevates home decor instantly</div>
+        <div class="box">Improves indoor air quality</div>
+        <div class="box">Beginner-friendly care</div>
+        <div class="box">Long-lasting & adaptable</div>
+    </div>
+
+</section>
+
+<!--CTA-->
+<section class="cta">
+    <h2>Ready to transform your space?</h2>
+    <button onclick="addToCart()" class="btn">Add to Cart</button>
+</section>
+
+
+<!--Contact form-->
+<section id="contact" class="contact">
+    <h2>Enquire Now</h2>
+
+    <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Leave us a message"></textarea>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</section>
+
+
+<!--Footer-->
+<footer>
+    <p>Acacia Garden Center</p>
+    <p>© 2026 All Rights Reserved</p>
+</footer>
+
+
+<script>
+    function addToCart() {
+    alert("Added to cart!");
+}
+</script>
+
+</body>
+</html>
