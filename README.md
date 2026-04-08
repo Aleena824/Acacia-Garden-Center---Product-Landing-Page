@@ -61,7 +61,7 @@ project-folder/
 ## Live Website
 
 ```
-https://yourusername.github.io/repository-name/
+https://aleena824.github.io/Acacia-Garden-Center---Product-Landing-Page/
 ```
 
 ## Future Improvements
